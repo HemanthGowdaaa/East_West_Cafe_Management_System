@@ -51,7 +51,7 @@
 				<div class="col-md-6 home-left-section">
 					<div style="padding: 100px 0px; color: white;">
 						<h1>
-							VINCENT PIZZA.
+							EAST WEST CAFE.
 						</h1>
 						<h2>
 							MAKING PEOPLE HAPPY
@@ -219,7 +219,7 @@
 	                                                            <?php echo $menu['menu_description']; ?>
 	                                                        </p>
 	                                                        <span class="menu_price">
-	                                                        	<?php echo "$".$menu['menu_price']; ?>
+	                                                        	<?php echo "₹".$menu['menu_price']; ?>
 	                                                        </span>
 	                                                    </div>
 	                                                </div>
@@ -268,7 +268,7 @@
 	                                                            <?php echo $menu['menu_description']; ?>
 	                                                        </p>
 	                                                        <span class="menu_price">
-	                                                        	<?php echo "$".$menu['menu_price']; ?>
+	                                                        	<?php echo "₹".$menu['menu_price']; ?>
 	                                                        </span>
 	                                                    </div>
 	                                                </div>
@@ -429,12 +429,12 @@
 
 	<!-- WIDGET SECTION / FOOTER -->
 
-    <section class="widget_section" style="background-color: #222227;padding: 100px 0;">
+    <section class="widget_section" style="background-color: #28272b;padding: 100px 0;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer_widget">
-                        <img src="Design/images/restaurant-logo.png" alt="Restaurant Logo" style="width: 150px;margin-bottom: 20px;">
+                        <img src="Design/images/restaurant-logo1.jpeg" alt="Restaurant Logo" style="width: 150px;margin-bottom: 20px;">
                         <p>
                             Our Restaurnt is one of the bests, provide tasty Menus and Dishes. You can reserve a table or Order food.
                         </p>

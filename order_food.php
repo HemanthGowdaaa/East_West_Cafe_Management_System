@@ -306,7 +306,7 @@
 				                                	echo "<div class = 'item_select_part'>";
 				                                    	echo "<div class = 'menu_price_field'>";
 				    										echo "<span style = 'font-weight: bold;'>";
-				                                    			echo $row['menu_price']."$";
+				                                    			echo $row['menu_price']."₹";
 				                                    		echo "</span>";
 				                                    	echo "</div>";
 				                                    ?>
@@ -402,12 +402,12 @@
 
 	<!-- WIDGET SECTION / FOOTER -->
 
-    <section class="widget_section" style="background-color: #222227;padding: 100px 0;">
+    <section class="widget_section" style="background-color: #28272b;padding: 100px 0;">
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6">
                     <div class="footer_widget">
-                        <img src="Design/images/restaurant-logo.png" alt="Restaurant Logo" style="width: 150px;margin-bottom: 20px;">
+                        <img src="Design/images/restaurant-logo1.jpeg" alt="Restaurant Logo" style="width: 150px;margin-bottom: 20px;">
                         <p>
                             Our Restaurnt is one of the bests, provide tasty Menus and Dishes. You can reserve a table or Order food.
                         </p>

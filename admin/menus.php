@@ -193,7 +193,7 @@
                                                 echo $menu['menu_description'];
                                             echo "</td>";
                                             echo "<td>";
-                                                echo "$".$menu['menu_price'];
+                                                echo "₹".$menu['menu_price'];
                                             echo "</td>";
                                             echo "<td>";
                                                 /****/
@@ -221,7 +221,7 @@
                                                                                     <img src="<?php echo $source; ?>" >
                                                                                     <div class="caption">
                                                                                         <h3>
-                                                                                            <span style="float: right;">$<?php echo $menu['menu_price'];?></span>
+                                                                                            <span style="float: right;">₹<?php echo $menu['menu_price'];?></span>
                                                                                             <?php echo $menu['menu_name'];?>
                                                                                         </h3>
                                                                                         <p>
@@ -401,7 +401,7 @@
                                         <!-- MENU PRICE INPUT -->
 
                                         <div class="form-group">
-                                            <label for="menu_price">Menu Price($)</label>
+                                            <label for="menu_price">Menu Price(₹)</label>
                                             <input type="text" class="form-control" value="<?php echo (isset($_POST['menu_price']))?htmlspecialchars($_POST['menu_price']):'' ?>" placeholder="Menu Price" name="menu_price">
                                             <?php
 
@@ -659,7 +659,7 @@
                                             <!-- MENU PRICE INPUT -->
 
                                             <div class="form-group">
-                                                <label for="menu_price">Menu Price($)</label>
+                                                <label for="menu_price">Menu Price(₹)</label>
                                                 <input type="text" class="form-control" value="<?php echo $menu['menu_price'] ?>" placeholder="Menu Price" name="menu_price">
                                                 <?php
 
